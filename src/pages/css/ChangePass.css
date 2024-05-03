@@ -1,0 +1,40 @@
+.reset-container {
+  margin-bottom: 20px;
+  width: 500px;
+  margin: 200px auto  ;
+}
+
+.reset-h1 {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.reset-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.reset-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background-color: #0056b3;
+}
+
+.reset-error {
+  color: #dc3545;
+}
+
+.reset-success {
+  color: #28a745;
+}

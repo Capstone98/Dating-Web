@@ -1,0 +1,103 @@
+/* Admin Panel Styles */
+.admin-container {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+  }
+  
+  .admin-header {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .admin-table th,
+  .admin-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .admin-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .admin-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .admin-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .admin-profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .admin-action-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .admin-action-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+    margin: 10px 0;
+  }
+
+  .admin-row {
+    font-size: 0.8em;
+  }
+  
+  .admin-displayName,
+  .admin-email,
+  .admin-bio,
+  .admin-username,
+  .admin-photoURL,
+  .admin-images,
+  .admin-actions {
+    padding: 5px;
+  }
+  
+  .admin-input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 0.8em;
+  }
+  
+  .admin-button {
+    padding: 5px 10px;
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
+  
+  .admin-profile-upload-label,
+  .admin-image-link {
+    font-size: 0.8em;
+  }
+  
+  .admin-image {
+    margin-top: 5px;
+  }
+  
+  img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  

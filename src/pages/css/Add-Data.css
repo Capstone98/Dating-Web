@@ -1,0 +1,48 @@
+.add-data-container {
+    margin: 0 auto; /* Center the container horizontally */
+    max-width: 500px; /* Limit the width to 500px */
+    background-color: #fff;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 50px;
+  }
+  
+  .add-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .add-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .add-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-picture-label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .add-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #0056b3;
+  }
+  

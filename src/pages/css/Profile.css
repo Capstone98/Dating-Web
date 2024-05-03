@@ -1,0 +1,126 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    background-color: aliceblue;
+    margin: 50px auto;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .profile-picture-container {
+    margin-right: 20px;
+  }
+  
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 30px;
+  }
+  
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-username {
+    font-size: 20px;
+  }
+
+  .profile-bio {
+    font-size: 15px;
+  }
+  
+  .profile-upload {
+    margin-top: auto; /* Move the upload button to the bottom */
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Align items in column */
+  }
+  
+  .profile-file {
+    display: none;
+  }
+  
+  .uploaded-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align images from left to right */
+  }
+  
+  .uploaded-image {
+    width: 300px;
+    height: 200px;
+    margin: 5px; /* Adjust the margin as needed to create space between images */
+    object-fit: cover;
+  }
+  
+  
+  .choose-file-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .add-picture-profile img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px; /* Adjust as needed */
+  }
+  
+  .profile-btn {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius:10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #F9D7D7;
+  }
+
+  /* Profile.css */
+
+.uploaded-image-container {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #fff;
+  border: none;
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.user-btn{
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #F9D7D7;
+  max-width: 200px;
+}
+
+.user-btn:hover {
+  cursor: pointer;
+  background-color: transparent
+}
+
+.link-user-btn{
+  text-decoration: none;
+  color: #000;
+  padding: 5px;
+  max-width: 200px;
+}
